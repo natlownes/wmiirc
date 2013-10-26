@@ -128,7 +128,7 @@ display:
 
 control:
   action:
-    launch_terminal: launch 'urxvt'
+    launch_terminal: launch 'xterm'
     launch_browser:  launch 'chromium'
     launch_filer:    launch 'pcmanfm'
     launch_editor:   launch 'gvim'
