@@ -3,4 +3,5 @@ import:
 
 control:
   action:
-    desktop: launch! 'test -f ~/.fehbg && sh ~/.fehbg'
+    #desktop: launch! 'test -f ~/.fehbg && sh ~/.fehbg'
+    desktop: launch! "xsetroot -solid '#0b1014'"

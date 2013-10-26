@@ -129,9 +129,9 @@ display:
 control:
   action:
     launch_terminal: launch 'xterm'
-    launch_browser:  launch 'chromium'
+    launch_browser:  launch 'chromium-browser'
     launch_filer:    launch 'pcmanfm'
-    launch_editor:   launch 'gvim'
+    #launch_editor:   launch 'gvim'
 
     keyboard: | # re-register keyboard shortcuts under new keyboard layout
       Rumai.fs.keys.tap {|f| f.write f.read }
